@@ -1,2 +1,2 @@
-# Discord_Bot
-As per recommendation by a friend
+# Cookie Clicker
+Introductory Project to JavaScript
