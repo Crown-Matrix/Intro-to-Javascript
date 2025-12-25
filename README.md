@@ -31,3 +31,6 @@ Introductory Project to Bootstrap
         + Containers/Columns/Rows/Divs Hierachy
         + How to import a module/framework on Javascript
     - Buttons/Text-Inputs/Checkboxes
+* LocalStorage
+    - Used to autosave progress
+    - storing stringified JSON
