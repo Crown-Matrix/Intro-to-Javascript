@@ -1,0 +1,42 @@
+{
+  "grandma-multiplier": {
+    "name": "Grandma Multiplier",
+    "description": "Doubles the cookies produced by each grandma.",
+    "baseCost": 3000
+  },
+  "farm-multiplier": {
+    "name": "Farm Multiplier",
+    "description": "Doubles the cookies produced by each farm.",
+    "baseCost": 10000
+  },
+  "factory-multiplier": {
+    "name": "Factory Multiplier",
+    "description": "Doubles the cookies produced by each factory.",
+    "baseCost": 50000
+  },
+  "mine-multiplier": {
+    "name": "Mine Multiplier",
+    "description": "Doubles the cookies produced by each mine.",
+    "baseCost": 200000
+  },
+  "shipment-multiplier": {
+    "name": "Shipment Multiplier",
+    "description": "Doubles the cookies produced by each shipment.",
+    "baseCost": 1000000
+  },
+  "alchemy-lab-multiplier": {
+    "name": "Alchemy Lab Multiplier",
+    "description": "Doubles the cookies produced by each alchemy lab.",
+    "baseCost": 5000000
+  },
+  "portal-multiplier": {
+    "name": "Portal Multiplier",
+    "description": "Doubles the cookies produced by each portal.",
+    "baseCost": 100000000
+  },
+  "time-machine-multiplier": {
+    "name": "Time Machine Multiplier",
+    "description": "Doubles the cookies produced by each time machine.",
+    "baseCost": 2000000000
+  }
+}

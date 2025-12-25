@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: auto;
+    max-height: 100vh;
+    padding: 5vw 0;
+    background-image: url("/images/wooden.jpg");
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+#content {
+    max-width: 70vw;
+    margin: auto;
+    background-color: lightslategray;
+    font-family: inherit;
+    font-size: medium;
+    padding: 2.5vw;
+    box-sizing: border-box;
+}
+
+#screen {
+    display: flex;
+    min-width: 100%;
+    height: fit-content;
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    justify-content: flex-end;
+    padding-right: 1em;
+    overflow-x:hidden;
+}
+
+#screen-str {
+    align-self: center;
+    margin-bottom: 0;
+}
+#buttons-grid-div {
+    border: 10px solid black;
+    margin-top: 2vh;
+    margin: 2vh 0 0 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: content-box;
+    justify-content: center;
+    text-align: center;
+    width: auto; /*it was buggy with a percentage value*/
+    
+}
+
+.number-button {
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.1em;
+    box-sizing: border-box;
+    max-width: fit-content;
+    min-height: 5em;
+
+    display: flex;
+    justify-content: center;
+    /* padding: 1.5em; alternative to align-items:center*/
+    align-items: center;
+    
+}
+
+.operation-button {
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.1em;
+    box-sizing: border-box;
+    max-width: fit-content;
+    min-height: 5em;
+    display: flex;
+    justify-content: center;
+    /* padding: 1.5em; alternative to align-items:center*/
+    align-items: center;
+}
+
+.action-button {
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.1em;
+    box-sizing: border-box;
+    max-width: fit-content;
+    min-height: 5em;
+    display: flex;
+    justify-content: center;
+    /* padding: 1.5em; alternative to align-items:center*/
+    align-items: center;
+}

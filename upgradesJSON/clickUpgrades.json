@@ -1,0 +1,15 @@
+{"grandma": {"name": "Grandma", "baseCost": 100, "cps": 1},
+
+ "farm": {"name": "Farm", "baseCost": 1100, "cps": 8},
+
+  "factory": {"name": "Factory", "baseCost": 12000, "cps": 47},
+
+   "mine": {"name": "Mine", "baseCost": 130000, "cps": 260},
+
+    "shipment": {"name": "Shipment", "baseCost": 1400000, "cps": 1400},
+
+     "alchemy-lab": {"name": "Alchemy Lab", "baseCost": 20000000, "cps": 7800},
+
+      "portal": {"name": "Portal", "baseCost": 330000000, "cps": 44000},
+      
+       "time-machine": {"name": "Time Machine", "baseCost": 5100000000, "cps": 260000}}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" style="width: fit-content;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Ensures compatibility with IE as if anyone uses that -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets the viewport for responsive design -->
+    <link rel="stylesheet" href="./clicker-styles.css"> <!-- Links to external CSS file -->
+    <link rel="icon" type="image/png" href="https://cookieclicker.com/img/favicon.ico"> <!--we snatch the original cookie clicker favicon lol-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <title>Clicker Game</title>
+    <script type="module" src="./clicker.js" defer></script> <!-- Links to external JavaScript file -->
+</head>
+<body>
+<div id="content">
+    <div id="left-panel">
+        <p id="score-line">Cookies: <span id="sco re-int">0</span></p>
+        <p id="cpc">Cookies per click: <span id="cpc-int">1</span></p>
+        <div id="settings-div">
+            <div class="settings-spacer"></div>
+            <div id="short-numbers-div" class="settings-item-div">
+                <p>Short Numbers</p>
+                <input type="checkbox" id="shortNumbersCheckbox" name="shortNumbersCheckbox" class="not-selectable" checked>
+            </div>
+            <div class="settings-spacer"></div>
+            <div id="auto-save-div" class="settings-item-div">
+                <p>Auto Save</p>
+                <input type="checkbox" id="autoSaveCheckbox" name="autoSaveCheckbox" class="not-selectable" checked>
+            </div>
+            <div class="settings-spacer"></div>
+            <div id="bakery-name-div" class="settings-item-div">
+                <p>Bakery name</p>
+                <input type="button" id="bakeryNameInput" name="bakeryNameInput" value="Set Name" class="not-selectable">
+            </div>
+            <div class="settings-spacer"></div>
+            <div class="settings-item-div" id = "reset-div">
+                <p>Clear Save Data</p>
+                <button id="reset-button" class="not-selectable">Reset Game</button>
+            </div>
+            <div class="settings-spacer"></div>
+        </div>
+            <div id="bakery-plaque">
+                <h2 id="bakery-plaque-h2"></h2>
+            </div>
+        </div>
+    <div id="game-area" class="row">
+        <div id="header" class="col-lg-12">
+            <h1>Cookie Clicker</h1>
+            <h3>"This is a completely original idea"</h3>
+        </div>
+        <div id="main-game">
+            <div id="cookie-container" class="left-axis">
+                <div id="bakery-name-div-header">
+                    <h2 id="bakery-name-header"><span id="bakery-name-span">Jane Doe</span>'<span id ="bakery-name-s-span">s</span> Bakery</h2>
+                </div>
+                <div id="cookie-score-div">
+                    <h2><span id="score-int-2">0</span> Cookies</h2>
+                </div>
+                <img id="cookie" src="/images/cookie.png" class="not-selectable" alt="Cookie">
+            </div>
+            <div id="spacing_div" class="center-axis"></div>
+            <div id="shop-container" class="right-axis" style="justify-content: center;"> 
+                <!-- justify-content: center should only be active when shopEnabled = FALSE -->
+                <button id="shop-button" onclick="">Open Shop (S)</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<div id="footer">
+    <p>Made by Daniel | Inspired by <a style="color: inherit;" href="https://orteil.dashnet.org/cookieclicker/">Cookie Clicker</a></p>
+</div>
+</body>
+</html>
